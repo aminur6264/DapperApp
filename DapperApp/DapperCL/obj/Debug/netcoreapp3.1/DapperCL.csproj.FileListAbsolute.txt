@@ -1,0 +1,9 @@
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\bin\Debug\netcoreapp3.1\DapperCL.deps.json
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\bin\Debug\netcoreapp3.1\DapperCL.dll
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\bin\Debug\netcoreapp3.1\DapperCL.pdb
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.csprojAssemblyReference.cache
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.AssemblyInfoInputs.cache
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.AssemblyInfo.cs
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.csproj.CoreCompileInputs.cache
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.dll
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperCL\obj\Debug\netcoreapp3.1\DapperCL.pdb
