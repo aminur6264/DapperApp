@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .height-30 {
+        height: 30px;
+    }
+
+    .height-60 {
+        height: 60px;
+        vertical-align: middle;
+    }
+
+    .box {
+        margin: 5px;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Welcome Dapper Bulk Insert</h1>
+    <p>Insert Amount of Data you want to insert.</p>
+</div>
+@using (Html.BeginForm())
+{
+    <div class="row text-center">
+        <div class="col-md-4 offset-md-4">
+            <input type="number" class="form-control" name="insertQty" />
+        </div>
+        <div class="col-md-4 offset-md-4" style="margin-top:5px">
+            <button type="submit" class="btn btn-primary">Insert</button>
+        </div>
+    </div>
+}
+
+@{
+    if (ViewBag.ExecutionTime != null)
+    {
+        TimeSpan executeTime = ViewBag.ExecutionTime;
+        <div class="row text-center">
+
+            Total Time Take to execute (In Milliseconds) : @executeTime.Milliseconds<br />
+            Total Time Take to execute (In Seconds): @executeTime.Seconds<br />
+        </div>
+    }
+}

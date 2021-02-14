@@ -7,3 +7,6 @@ H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\obj\Debug\netcoreapp3.1\Da
 H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\obj\Debug\netcoreapp3.1\DapperDL.csproj.CoreCompileInputs.cache
 H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\obj\Debug\netcoreapp3.1\DapperDL.dll
 H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\obj\Debug\netcoreapp3.1\DapperDL.pdb
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\bin\Debug\netcoreapp3.1\DapperCL.dll
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\bin\Debug\netcoreapp3.1\DapperCL.pdb
+H:\Git\Project\DapperApp\DapperApp\DapperApp\DapperDL\obj\Debug\netcoreapp3.1\DapperDL.csproj.CopyComplete

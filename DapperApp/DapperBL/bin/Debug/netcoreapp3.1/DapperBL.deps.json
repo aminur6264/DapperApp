@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "DapperBL/1.0.0": {
+        "dependencies": {
+          "DapperCL": "1.0.0",
+          "DapperDL": "1.0.0"
+        },
         "runtime": {
           "DapperBL.dll": {}
+        }
+      },
+      "DapperCL/1.0.0": {
+        "runtime": {
+          "DapperCL.dll": {}
+        }
+      },
+      "DapperDL/1.0.0": {
+        "dependencies": {
+          "DapperCL": "1.0.0"
+        },
+        "runtime": {
+          "DapperDL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DapperBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DapperCL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DapperDL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

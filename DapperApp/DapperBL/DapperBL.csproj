@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DapperCL\DapperCL.csproj" />
+    <ProjectReference Include="..\DapperDL\DapperDL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,70 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .height-30 {
+        height: 30px;
+    }
 
+    .height-60 {
+        height: 60px;
+        vertical-align: middle;
+    }
+    .box{
+        margin:5px;
+    }
+</style>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>This application for Entity Framework and Dapper performance test.</p>
+</div>
+<div class="row text-center">
+    <div class="col-md-6" style="border:1px solid">
+        <div class="row text-center">
+            <h1>Entity Framework Core</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="btn-block hvr-rectangle-out box" href="@Url.Action("BulkInsert","EntityFrameworkCore")">
+                    <div class="height-60">Bulk Insert</div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn-block hvr-rectangle-out box" href="@Url.Action("Read","EntityFrameworkCore")">
+                    <div class="height-60">Data Read</div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn-block hvr-rectangle-out box" href="@Url.Action("BulkAyncInsert","EntityFrameworkCore")">
+                <div class="height-60">
+                    Asynchronous Bulk Insert
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="col-md-6" style="border:1px solid">
+        <div class="row text-center">
+            <h1>Dapper OMR</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="btn-block hvr-rectangle-out box" href="@Url.Action("BulkInsert","Dapper",new {Area="Administrator" })">
+                    <div class="height-60">Bulk Insert</div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn-block hvr-rectangle-out box" href="@Url.Action("Read","Dapper")">
+                    <div class="height-60">Data Read</div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <a class="btn-block hvr-rectangle-out box" href="@Url.Action("BulkAyncInsert","Dapper")">
+                <div class="height-60">
+                    Asynchronous Bulk Insert
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
